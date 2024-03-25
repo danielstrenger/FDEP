@@ -4,13 +4,12 @@ Title: Functional Dependence
 Version: 0.1.0
 Authors@R: person("Daniel", "Strenger", email = "daniel.strenger@tugraz.at", 
   role = c("aut", "cre"))
-Description: This package contains methods for investigating dependence in functional data.
-  For more information, see the paper: Hörmann and Strenger (2024), "Measuring dependence between a scalar response and a functional covariate"
+Description: This package contains methods for investigating dependence in functional data. For more information, see the paper: Hoermann and Strenger (2024), "Measuring dependence between a scalar response and a functional covariate"
 License: GPL-3
 Encoding: UTF-8
 LazyData: true
 Imports: RANN
 RoxygenNote: 7.3.1
 Depends: 
-    R (>= 2.10)
+    R (>= 2.10),
     RANN
