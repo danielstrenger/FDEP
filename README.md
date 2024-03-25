@@ -1,4 +1,4 @@
-# FDEP.dm
+# FDEP
 
 This package contains methods for investigating dependence in functional data.
 
@@ -9,7 +9,7 @@ Hörmann, S., & Strenger, D. (2024), "Measuring Dependence between a Scalar  Res
 The R-package `FDEP` can be installed and loaded via the commands
 
 ```
-devtools::install_github("danielstrenger/FDEP/FDEP")
+devtools::install_github("danielstrenger/FDEP")
 library(FDEP)
 ```
 
