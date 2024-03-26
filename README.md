@@ -6,7 +6,7 @@ Hörmann, S., & Strenger, D. (2024), "Measuring Dependence between a Scalar Resp
 
 ## Installation
 
-The R-package `FDEP` can be installed and loaded via the commands
+The R-package `FDEP` can be installed (using the devtools package) and loaded via the commands
 
 ```
 devtools::install_github("danielstrenger/FDEP")
