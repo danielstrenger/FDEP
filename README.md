@@ -15,7 +15,7 @@ library(FDEP)
 
 ## Help
 
-The function for the test for independence is `soFun.test`. Type
+The function for the scalar on function test for independence is `soFun.test`. Type
 
 ```
 help(soFun.test)
