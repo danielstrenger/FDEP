@@ -1,6 +1,6 @@
 Package: FDEP
 Type: Package
-Title: Functional Dependence
+Title: Invesigating Dependencein Functional Data
 Date: 25.03.2024
 Version: 0.1.0
 Authors@R: person("Daniel", "Strenger", email = "daniel.strenger@tugraz.at", 

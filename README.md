@@ -1,8 +1,10 @@
 # FDEP
 
-This package contains methods for investigating dependence in functional data.
+This package contains methods for investigating dependence in functional data. See the unpublished work
 
 Hörmann, S., & Strenger, D. (2024), "Measuring Dependence between a Scalar  Response and a Functional Covariate".
+
+for further details.
 
 ## Installation
 
