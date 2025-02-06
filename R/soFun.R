@@ -8,13 +8,15 @@ library(RANN)
 #' @param X Matrix (p by n)
 #' @param eps Error bound for nearest neighbour search: a value of 0.0 implies exact nearest neighbour search.
 #' @param na.rm Remove NAs if TRUE
-#' @details The test statistic is an appropriately scaled version of the \code{\link{soFun}} statistic.
-#' The test is based on the known asymptotic normal distribution of this statistic, not on a resampling procedure.
+#' @param permutation If TRUE, the p-value is calculated by permutation. If FALSE, the p-value is calculated based on the asymptotic distribution of the test statistic. The default is FALSE.
+#' @param R Number of permutations. Ignored if permutation == FALSE.
+#' @details The test statistic is the \code{\link{soFun}} statistic, with an appropriate scaling applied if permuatation == FALSE.
+#' The test is based either on the known asymptotic normal distribution of this statistic or on a resampling procedure, according to the value of the argument \code{permutation}.
 #' @return A list containing the test statistic and its p-value.
 #' @import RANN
 #' @export
 #' @author Daniel Strenger
-#' @references Hörmann, S. and Strenger, D. (2024). Measuring dependence between a scalar response and a functional covariate.
+#' @references Hörmann, S. and Strenger, D. (2025). Azadkia–Chatterjee’s dependence coefficient for infinite dimensional data.
 #' @examples
 #' n <- 100
 #' p <- 200
@@ -25,7 +27,19 @@ library(RANN)
 #' } else{
 #'   print("The hypothesis of independence cannot be rejected at a significance level of 0.05.")
 #' }
-soFun.test <- function(Y, X, eps=2, na.rm=TRUE){
+soFun.test <- function(Y, X, eps=2, na.rm=TRUE, permutation = FALSE, R = 1000){
+  if(permutation == TRUE){
+    statistic <- soFun(Y,X,eps,na.rm)
+    statitstics.permuted <- numeric(R)
+    for(i in 1:R){
+      statitstics.permuted[i] <- soFun(sample(Y),X,eps,na.rm)
+    }
+    result <- list()
+    result$statistic <- statistic
+    result$p.value <- mean(statitstics.permuted > statistic)
+    return(result)
+  }
+
   if (na.rm == TRUE) {
     # NAs are removed here:
     ok <- complete.cases(Y,t(X))
