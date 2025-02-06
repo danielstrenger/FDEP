@@ -2,7 +2,7 @@
 
 This package contains methods for investigating dependence in functional data. For further details, see the unpublished work
 
-Siegfried Hörmann and Daniel Strenger. Measuring dependence between a scalar response and a functional covariate. [arXiv:2405.07732](https://arxiv.org/abs/2405.07732), 2024.
+Siegfried Hörmann and Daniel Strenger. Azadkia–Chatterjee’s dependence coefficient for infinite dimensional data. [arXiv:2405.07732](https://arxiv.org/abs/2405.07732), 2025.
 
 ## Installation
 
