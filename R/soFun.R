@@ -1,4 +1,5 @@
 library(RANN)
+library(stats)
 
 # soFun.test -------------------------------------------------------------------------
 #' Scalar on Function test for dependence.
@@ -14,6 +15,7 @@ library(RANN)
 #' The test is based either on the known asymptotic normal distribution of this statistic or on a resampling procedure, according to the value of the argument \code{permutation}.
 #' @return A list containing the test statistic and its p-value.
 #' @import RANN
+#' @import stats
 #' @export
 #' @author Daniel Strenger
 #' @references Hörmann, S. and Strenger, D. (2025). Azadkia–Chatterjee’s dependence coefficient for infinite dimensional data.

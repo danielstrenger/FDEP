@@ -5,7 +5,7 @@
 #'
 #' @docType data
 #'
-#' @usage data(vaccination.rates)
+#' @usage data(vaccine_data)
 #'
 #' @format A  \code{data.frame}; each row represents one municipality;
 #' \code{ID} Is an identifier for each municipality.
@@ -20,7 +20,8 @@
 #'
 #' @examples
 #' data(vaccine_data)
-#' hist(vaccine_data$fully_vaccinated_p100, freq = FALSE, xlab="% fully vaccinated", main="Vaccination rates")
+#' hist(vaccine_data$fully_vaccinated_p100, freq = FALSE,
+#' xlab="% fully vaccinated", main="Vaccination rates")
 #' age.curves=vaccine_data[,3:102]
 #' matplot(t(age.curves), type="l", xlab="Age", ylab="Number of People", main="Age structure")
 "vaccine_data"

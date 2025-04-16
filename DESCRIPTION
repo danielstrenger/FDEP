@@ -5,12 +5,11 @@ Date: 25.03.2024
 Version: 0.1.1
 Authors@R: person("Daniel", "Strenger", email = "daniel.strenger@tugraz.at", 
   role = c("aut", "cre"))
-Description: This package contains methods for investigating dependence in functional data. For more information, see the paper: Hörmann and Strenger (2025), "Azadkia–Chatterjee’s dependence coefficient for infinite dimensional data"
-License: GPL-3
+Description: This package contains methods for investigating dependence in functional data. For more information, see the paper: Hörmann and Strenger (2025), "Azadkia–Chatterjee’s dependence coefficient for infinite dimensional data".
+License: GPL-3 + file LICENSE
 Encoding: UTF-8
 LazyData: true
-Imports: RANN
-RoxygenNote: 7.3.1
+Imports: RANN, stats
+RoxygenNote: 7.3.2
 Depends: 
-    R (>= 2.10),
-    RANN
+    R (>= 2.10)

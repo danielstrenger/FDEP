@@ -1,3 +1,5 @@
+library(stats)
+
 #' Simulate paths of the standard Brownian Motion on [0,1].
 #'
 #' @param n Number of paths to simulate.
