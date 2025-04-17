@@ -31,7 +31,7 @@ The package `FDEP` is licensed under GNU General Public License v3.0.
 
 Mona Azadkia and Sourav Chatterjee. A simple measure of conditional dependence. The Annals of Statistics, 49(6):3070–3102, 2021.
 
-Siegfried Hörmann and Daniel Strenger. Measuring dependence between a scalar response and a functional covariate. [arXiv:2405.07732](https://arxiv.org/abs/2405.07732), 2024.
+Siegfried Hörmann and Daniel Strenger. Azadkia–Chatterjee’s dependence coefficient for infinite dimensional data. [arXiv:2405.07732](https://arxiv.org/abs/2405.07732), 2025.
 
 Statistik Austria. Bevölkerung zu Jahresbeginn 2021, 2021. URL https://statcube.at. Accessed: 23.10.2021.
 
