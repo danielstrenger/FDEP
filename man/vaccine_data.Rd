@@ -3,7 +3,7 @@
 \docType{data}
 \name{vaccine_data}
 \alias{vaccine_data}
-\title{Austrian vaccination rates dataset}
+\title{Austrian vaccination rates dataset.}
 \format{
 A  \code{data.frame}; each row represents one municipality;
 \code{ID} Is an identifier for each municipality.

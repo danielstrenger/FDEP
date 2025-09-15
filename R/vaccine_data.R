@@ -1,4 +1,4 @@
-#' Austrian vaccination rates dataset
+#' Austrian vaccination rates dataset.
 #'
 #' Rates of vaccination against COVID-19 and age structure
 #' in Austrian municipalities 2021.

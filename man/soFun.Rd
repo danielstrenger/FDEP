@@ -32,7 +32,7 @@ y <- sin(2*pi* apply(x,2,mean))
 soFun(y,x)
 }
 \references{
-Hörmann, S. and Strenger, D. (2024). Measuring dependence between a scalar response and a functional covariate.
+Hörmann, S. and Strenger, D. (2025). Azadkia–Chatterjee’s dependence coefficient for infinite dimensional data. \href{https://arxiv.org/abs/2405.07732}{https://arxiv.org/abs/2405.07732}
 
 Azadkia, M. and Chatterjee, S. (2019). A simple measure of conditional dependence. \href{https://arxiv.org/pdf/1910.12327.pdf}{https://arxiv.org/pdf/1910.12327.pdf}.
 }
