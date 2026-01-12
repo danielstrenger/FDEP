@@ -45,7 +45,7 @@ soFun.test <- function(Y, X, eps=2, na.rm=TRUE, permutation = FALSE, R = 1000){
   if (na.rm == TRUE) {
     # NAs are removed here:
     ok <- complete.cases(Y,t(X))
-    X <- as.matrix(X[,ok])
+    X <- as.matrix(X[,ok, drop = FALSE])
     Y <- Y[ok]
   }
   if(!is.vector(Y)) {

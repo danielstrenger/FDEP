@@ -27,7 +27,7 @@ soFun <- function(Y, X, eps=2, na.rm=TRUE){
   if (na.rm == TRUE) {
     # NAs are removed here:
     ok <- complete.cases(Y,t(X))
-    X <- as.matrix(X[,ok])
+    X <- as.matrix(X[,ok, drop=FALSE])
     Y <- Y[ok]
   }
   n <- length(Y)

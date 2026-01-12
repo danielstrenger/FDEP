@@ -6,8 +6,8 @@ Version: 0.1.2
 Authors@R: person("Daniel", "Strenger-Galvis", email = "daniel.strenger@tugraz.at", 
   role = c("aut", "cre"))
 Description: This package contains methods for investigating dependence in functional data. For more information, see the papers:
-Hörmann and Strenger (2025), "Azadkia–Chatterjee’s dependence coefficient for infinite dimensional data".
-Hörmann and Strenger-Galvis (2025) "Quantifying and testing dependence to categorical variables."
+  Hörmann and Strenger (2025), "Azadkia–Chatterjee’s dependence coefficient for infinite dimensional data".
+  Hörmann and Strenger-Galvis (2025) "Quantifying and testing dependence to categorical variables."
 License: GPL-3 + file LICENSE
 Encoding: UTF-8
 LazyData: true
